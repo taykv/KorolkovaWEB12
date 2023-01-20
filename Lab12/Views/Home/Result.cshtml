@@ -1,0 +1,23 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html>
+<head>
+    <title>Result</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" href="~/Style/Style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <b>Backend1</b> <a href="~/Home/Index">Home</a>
+    </header>
+    <main>
+        <h2>Result</h2>
+       @ViewBag.result
+    </main>
+    <hr>
+    <footer>© @DateTime.Now.Year - Backend1</footer>
+</body>
+</html>
